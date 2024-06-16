@@ -1,378 +1,378 @@
 [
     {
         "entrenador": "Ash Ketchum",
-        "imagen": "images/E001.png",
+        "imagen": "app/src/images/E001.png",
         "pokemons": [
         {
             "nombre": "Pikachu",
-            "foto": "images/001.png"
+            "foto": "app/src/images/001.png"
         },
         {
             "nombre": "Charizard",
-            "foto": "images/002.png"
+            "foto": "app/src/images/002.png"
         },
         {
             "nombre": "Bulbasaur",
-            "foto": "images/003.png"
+            "foto": "app/src/images/003.png"
         },
         {
             "nombre": "Squirtle",
-            "foto": "images/004.png"
+            "foto": "app/src/images/004.png"
         },
         {
             "nombre": "Butterfree",
-            "foto": "images/005.png"
+            "foto": "app/src/images/005.png"
         }
       ] 
     },
     {
         "entrenador": "Misty",
-        "imagen": "images/E002.png",
+        "imagen": "app/src/images/E002.png",
         "pokemons": [
         {
             "nombre": "Starmie",
-            "foto": "images/006.png"
+            "foto": "app/src/images/006.png"
         },
         {
             "nombre": "Psyduck",
-            "foto": "images/007.png"
+            "foto": "app/src/images/007.png"
         },
         {
             "nombre": "Gyarados",
-            "foto": "images/008.png"
+            "foto": "app/src/images/008.png"
         },
         {
             "nombre": "Poliwhirl",
-            "foto": "images/009.png"
+            "foto": "app/src/images/009.png"
         },
         {
             "nombre": "Togepi",
-            "foto": "images/010.png"
+            "foto": "app/src/images/010.png"
         }
       ] 
     },
     {
         "entrenador": "Brock",
-        "imagen": "images/E003.png",
+        "imagen": "app/src/images/E003.png",
         "pokemons": [
         {
             "nombre": "Onix",
-            "foto": "images/011.png"
+            "foto": "app/src/images/011.png"
         },
         {
             "nombre": "Geodude",
             "tipo": "Tierra",
-            "foto": "images/012.png"
+            "foto": "app/src/images/012.png"
         },
         {
             "nombre": "Vulpix",
             "tipo": "Fuego",
-            "foto": "images/013.png"
+            "foto": "app/src/images/013.png"
         },
         {
             "nombre": "Croagunk",
             "tipo": "Lucha",
-            "foto": "images/014.png"
+            "foto": "app/src/images/014.png"
         },
         {
             "nombre": "Zubat",
             "tipo": "Acero",
-            "foto": "images/015.png"
+            "foto": "app/src/images/015.png"
         }
       ] 
     },
     {
         "entrenador": "Gary Oak",
-        "imagen": "images/E004.png",
+        "imagen": "app/src/images/E004.png",
         "pokemons": [
         {
           "nombre": "Blastoise",
           "tipo": "Agua",
-          "foto": "images/016.png"
+          "foto": "app/src/images/016.png"
         },
         {
             "nombre": "Arcanine",
             "tipo": "Fuego",
-            "foto": "images/017.png"
+            "foto": "app/src/images/017.png"
         },
         {
             "nombre": "Nidoking",
             "tipo": "Tierra",
-            "foto": "images/018.png"
+            "foto": "app/src/images/018.png"
         },
         {
             "nombre": "Umbreon",
             "tipo": "Siniestro",
-            "foto": "images/019.png"
+            "foto": "app/src/images/019.png"
         },
         {
             "nombre": "Scizor",
             "tipo": "Acero",
-            "foto": "images/020.png"
+            "foto": "app/src/images/020.png"
         }
       ] 
     },
     {
         "entrenador": "May",
-        "imagen": "images/E005.png",
+        "imagen": "app/src/images/E005.png",
         "pokemons": [
         {
             "nombre": "Blaziken",
-            "foto": "images/021.png"
+            "foto": "app/src/images/021.png"
         },
         {
             "nombre": "Beautifly",
-            "foto": "images/022.png"
+            "foto": "app/src/images/022.png"
         },
         {
             "nombre": "Skitty",
-            "foto": "images/023.png"
+            "foto": "app/src/images/023.png"
         },
         {
             "nombre": "Munchlax",
-            "foto": "images/024.png"
+            "foto": "app/src/images/024.png"
         },
         {
             "nombre": "Venusaur",
-            "foto": "images/025.png"
+            "foto": "app/src/images/025.png"
         }
       ] 
     },
     {
         "entrenador": "Dawn",
-        "imagen": "images/E006.png",
+        "imagen": "app/src/images/E006.png",
         "pokemons": [
         {
             "nombre": "Piplup",
-            "foto": "images/026.png"
+            "foto": "app/src/images/026.png"
         },
         {
             "nombre": "Buneary",
-            "foto": "images/027.png"
+            "foto": "app/src/images/027.png"
         },
         {
             "nombre": "Pachirisu",
-            "foto": "images/028.png"
+            "foto": "app/src/images/028.png"
         },
         {
             "nombre": "Mamoswine",
-            "foto": "images/029.png"
+            "foto": "app/src/images/029.png"
         },
         {
             "nombre": "Togekiss",
-            "foto": "images/030.png"
+            "foto": "app/src/images/030.png"
         }
       ] 
     },
     {
         "entrenador": "Iris",
-        "imagen": "images/E007.png",
+        "imagen": "app/src/images/E007.png",
         "pokemons": [
         {
             "nombre": "Haxorus",
-            "foto": "images/031.png"
+            "foto": "app/src/images/031.png"
         },
         {
             "nombre": "Emolga",
-            "foto": "images/032.png"
+            "foto": "app/src/images/032.png"
         },
         {
             "nombre": "Excadrill",
-            "foto": "images/033.png"
+            "foto": "app/src/images/033.png"
         },
         {
             "nombre": "Dragonite",
-            "foto": "images/034.png"
+            "foto": "app/src/images/034.png"
         },
         {
             "nombre": "Gible",
-            "foto": "images/035.png"
+            "foto": "app/src/images/035.png"
         }
       ] 
     },
     {
         "entrenador": "Cilan",
-        "imagen": "images/E008.png",
+        "imagen": "app/src/images/E008.png",
         "pokemons": [
         {
             "nombre": "Pansage",
-            "foto": "images/036.png"
+            "foto": "app/src/images/036.png"
         },
         {
             "nombre": "Crustle",
-            "foto": "images/037.png"
+            "foto": "app/src/images/037.png"
         },
         {
             "nombre": "Stunfisk",
-            "foto": "images/038.png"
+            "foto": "app/src/images/038.png"
         },
         {
             "nombre": "Dwebble",
-            "foto": "images/039.png"
+            "foto": "app/src/images/039.png"
         },
         {
             "nombre": "Gible",
-            "foto": "images/040.png"
+            "foto": "app/src/images/040.png"
         }
       ] 
     },
     {
         "entrenador": "Serena",
-        "imagen": "images/E009.png",
+        "imagen": "app/src/images/E009.png",
         "pokemons": [
         {
             "nombre": "Braixen",
-            "foto": "images/041.png"
+            "foto": "app/src/images/041.png"
         },
         {
             "nombre": "Pancham",
             "tipo": "Planta",
-            "foto": "images/042.png"
+            "foto": "app/src/images/042.png"
         },
         {
             "nombre": "Sylveon",
             "tipo": "Acero",
-            "foto": "images/043.png"
+            "foto": "app/src/images/043.png"
         },
         {
             "nombre": "Ampharos",
             "tipo": "Agua",
-            "foto": "images/044.png"
+            "foto": "app/src/images/044.png"
         },
         {
             "nombre": "Vaporeon",
             "tipo": "Fantasma",
-            "foto": "images/045.png"
+            "foto": "app/src/images/045.png"
         }
       ] 
     },
     {
         "entrenador": "Clemont",
-        "imagen": "images/E010.png",
+        "imagen": "app/src/images/E010.png",
         "pokemons": [
         {
             "nombre": "Chespin",
-            "foto": "images/046.png"
+            "foto": "app/src/images/046.png"
         },
         {
             "nombre": "Luxray",
-            "foto": "images/047.png"
+            "foto": "app/src/images/047.png"
         },
         {
             "nombre": "Heliolisk",
-            "foto": "images/048.png"
+            "foto": "app/src/images/048.png"
         },
         {
             "nombre": "Bunnelby",
-            "foto": "images/049.png"
+            "foto": "app/src/images/049.png"
         },
         {
             "nombre": "Magneton",
-            "foto": "images/050.png"
+            "foto": "app/src/images/050.png"
         }
       ] 
     },
     {
         "entrenador": "Lana",
-        "imagen": "images/E011.png",
+        "imagen": "app/src/images/E011.png",
         "pokemons": [
         {
             "nombre": "Primarina",
-            "foto": "images/051.png"
+            "foto": "app/src/images/051.png"
         },
         {
             "nombre": "Eevee",
-            "foto": "images/052.png"
+            "foto": "app/src/images/052.png"
         },
         {
             "nombre": "Brionne",
-            "foto": "images/053.png"
+            "foto": "app/src/images/053.png"
         },
         {
             "nombre": "Wishiwashi",
-            "foto": "images/054.png"
+            "foto": "app/src/images/054.png"
         },
         {
             "nombre": "Shellder",
-            "foto": "images/055.png"
+            "foto": "app/src/images/055.png"
         }
       ] 
     },
     {
         "entrenador": "Kiawe",
-        "imagen": "images/E012.png",
+        "imagen": "app/src/images/E012.png",
         "pokemons": [
         {
             "nombre": "Turtonator",
-            "foto": "images/056.png"
+            "foto": "app/src/images/056.png"
         },
         {
             "nombre": "Marowak",
-            "foto": "images/057.png"
+            "foto": "app/src/images/057.png"
         },
         {
             "nombre": "Charizard",
-            "foto": "images/058.png"
+            "foto": "app/src/images/058.png"
         },
         {
             "nombre": "Alolan Marowak",
-            "foto": "images/059.png"
+            "foto": "app/src/images/059.png"
         },
         {
             "nombre": "Flareon",
-            "foto": "images/060.png"
+            "foto": "app/src/images/060.png"
         }
       ] 
     },
     {
         "entrenador": "Mallow",
-        "imagen": "images/E013.png",
+        "imagen": "app/src/images/E013.png",
         "pokemons": [
         {
             "nombre": "Tsareena",
-            "foto": "images/061.png"
+            "foto": "app/src/images/061.png"
         },
         {
             "nombre": "Bounsweet",
-            "foto": "images/062.png"
+            "foto": "app/src/images/062.png"
         },
         {
             "nombre": "Shaymin",
-            "foto": "images/063.png"
+            "foto": "app/src/images/063.png"
         },
         {
             "nombre": "Lurantis",
-            "foto": "images/064.png"
+            "foto": "app/src/images/064.png"
         },
         {
             "nombre": "Trevenant",
-            "foto": "images/065.png"
+            "foto": "app/src/images/065.png"
         }
       ] 
     },
     {
         "entrenador": "Sophocles",
-        "imagen": "images/E014.png",
+        "imagen": "app/src/images/E014.png",
         "pokemons": [
         {
             "nombre": "Togedemaru",
-            "foto": "images/066.png"
+            "foto": "app/src/images/066.png"
         },
         {
             "nombre": "Vikavolt",
-            "foto": "images/067.png"
+            "foto": "app/src/images/067.png"
         },
         {
             "nombre": "Charjabug",
-            "foto": "images/068.png"
+            "foto": "app/src/images/068.png"
         },
         {
             "nombre": "Raichu",
-            "foto": "images/069.png"
+            "foto": "app/src/images/069.png"
         },
         {
             "nombre": "Magnezone",
-            "foto": "images/070.png"
+            "foto": "app/src/images/070.png"
         }
       ] 
     }

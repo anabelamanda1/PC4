@@ -1,36 +1,37 @@
 export default {
-    template: `
-        <div class="entrenador">
-            <h2>{{ entrenador.entrenador }}</h2>
-            <img :src="entrenador.imagen" :alt="entrenador.entrenador" class="entrenador-foto">
-            <button @click="verPokemons">Ver Pokémons</button>
-            <ul v-if="mostrarPokemons">
-                <li v-for="pokemon in entrenador.pokemons" :key="pokemon.nombre">
-                    <img :src="pokemon.foto" :alt="pokemon.nombre" class="pokemon-foto">
-                    <span>{{ pokemon.nombre }}</span>
-                </li>
-            </ul>
-            <button @click="seleccionar" :disabled="entrenador.seleccionadoParaCombate">Seleccionar para combate</button>
-        </div>
-    `,
-    props: {
-        entrenador: {
-            type: Object,
-            required: true
-        }
-    },
+    props: ['entrenador', 'isCombateHabilitado'],
     data() {
         return {
-            mostrarPokemons: false
+            mostrarPokemones: false
         };
     },
     methods: {
-        verPokemons() {
-            this.mostrarPokemons = !this.mostrarPokemons;
+        verPokemones() {
+            this.mostrarPokemones = !this.mostrarPokemones;
         },
-        seleccionar() {
+        seleccionarParaCombate() {
             this.$emit('seleccionarEntrenador', this.entrenador);
         }
     },
-    name: 'Entrenador'
-}
+    template: `
+        <div class="entrenador">
+            <img :src="entrenador.imagen" alt="Entrenador" class="entrenador-foto">
+            <h2>{{ entrenador.entrenador }}</h2>
+            <div class="botones">
+                <button @click="verPokemones">Ver Pokemones</button>
+                <button 
+                    :disabled="entrenador.seleccionadoParaCombate || isCombateHabilitado" 
+                    @click="seleccionarParaCombate"
+                >
+                    Seleccionar para combate
+                </button>
+            </div>
+            <ul v-if="mostrarPokemones">
+                <li v-for="pokemon in entrenador.pokemons" :key="pokemon.nombre">
+                    <img :src="pokemon.foto" alt="Pokemon" class="pokemon-foto">
+                    <span class="pokemon-nombre">{{ pokemon.nombre }}</span>
+                </li>
+            </ul>
+        </div>
+    `
+};
