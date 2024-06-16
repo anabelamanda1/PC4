@@ -1,9 +1,10 @@
 export default {
     template: `
         <header>
-            <div class="logo">Enfrantamiento Pokemon</div>
+            <div class="logo">Enfrentamiento Pokemon</div>
             <div class="right">
                 <button @click="nuevoCombate" :disabled="!isCombateHabilitado">Nuevo Combate</button>
+                <button @click="nuevaSeleccion">Nueva Selección</button>
             </div>
         </header>
     `,
@@ -11,16 +12,19 @@ export default {
         isCombateHabilitado: {
             type: Boolean,
             required: true
-        },
-        entrenadoresSeleccionados: {
-            type: Array,
-            required: true
         }
     },
     methods: {
         nuevoCombate() {
             this.$emit('nuevoCombate');
+        },
+        nuevaSeleccion() {
+            this.$emit('nuevaSeleccion');
         }
     },
-    name: 'Header'
+    computed: {
+        isNuevaSeleccionDisabled() {
+            return this.entrenadoresSeleccionados.length < 2;
+        }
+    }
 }

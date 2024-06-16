@@ -37,12 +37,16 @@ var app = new Vue({
             if (!this.entrenadoresSeleccionados.includes(entrenador)) {
                 this.entrenadoresSeleccionados.push(entrenador);
             }
-            entrenador.seleccionadoParaCombate = true; // Deshabilitar botón después de seleccionar
+            entrenador.seleccionadoParaCombate = true; 
         },
+        
         nuevoCombate: function() {
             if (this.isCombateHabilitado) {
                 alert(`Se realizará un nuevo combate entre ${this.entrenadoresSeleccionados[0].entrenador} vs ${this.entrenadoresSeleccionados[1].entrenador}`);
             }
+        },
+        nuevaSeleccion: function() {
+            location.reload();
         }
     },
     mounted() {
@@ -51,7 +55,7 @@ var app = new Vue({
     },
     template: `
         <div>
-            <Header :isCombateHabilitado="isCombateHabilitado" :entrenadoresSeleccionados="entrenadoresSeleccionados" @nuevoCombate="nuevoCombate" />
+            <Header :isCombateHabilitado="isCombateHabilitado" :entrenadoresSeleccionados="entrenadoresSeleccionados" @nuevoCombate="nuevoCombate" @nuevaSeleccion="nuevaSeleccion" />
             <div v-if="isEntrenadores" class="entrenadores-list">
                 <Entrenador v-for="entrenador in entrenadores" :key="entrenador.entrenador" :entrenador="entrenador" @seleccionarEntrenador="seleccionarEntrenador" />
             </div>

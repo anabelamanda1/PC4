@@ -2,7 +2,8 @@ export default {
     props: ['entrenador', 'isCombateHabilitado'],
     data() {
         return {
-            mostrarPokemones: false
+            mostrarPokemones: false,
+            seleccionadoParaCombate: false 
         };
     },
     methods: {
@@ -11,6 +12,7 @@ export default {
         },
         seleccionarParaCombate() {
             this.$emit('seleccionarEntrenador', this.entrenador);
+            this.seleccionadoParaCombate = true; 
         }
     },
     template: `
@@ -20,7 +22,7 @@ export default {
             <div class="botones">
                 <button @click="verPokemones">Ver Pokemones</button>
                 <button 
-                    :disabled="entrenador.seleccionadoParaCombate || isCombateHabilitado" 
+                    :disabled="seleccionadoParaCombate || isCombateHabilitado" 
                     @click="seleccionarParaCombate"
                 >
                     Seleccionar para combate
