@@ -1,0 +1,31 @@
+.entrenador {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+.entrenador-foto {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.pokemon-foto {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.entrenador button, .entrenador ul, .entrenador img, .entrenador h2 {
+    margin: 10px 0;
+}
+
+.entrenadores-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
